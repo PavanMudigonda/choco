@@ -33,3 +33,7 @@ choco install pgadmin4
 choco install visualstudio2019professional
 # Install Poetry for Python 
 (Invoke-WebRequest -Uri https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py -UseBasicParsing).Content | python -
+# Install Swagger
+choco install swagger
+# Install Swagger Codegen
+choco install swagger-codegen
